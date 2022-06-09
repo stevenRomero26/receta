@@ -1,0 +1,75 @@
+:root {
+    --indigo: #ffffff;
+    --purple: #5b2a86;
+    --blue: #7785ac;
+    --opal: #ffffff;
+    --celadon: #a5e6ba
+}
+
+body {
+    background-color: var(--indigo);
+    color: black;
+}
+/* Header */
+*,
+body,
+ :root {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding: 2rem 0;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+/* search bar */
+form {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 16%;
+    left: 30%;
+    
+}
+#datos{
+   display: flex;
+   flex-direction: column;
+   width: 40%;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   margin: 0px auto;
+   background-color: #ffffff;
+   flex-wrap: wrap;
+   border: black 3px solid;
+}
+form > label {
+    font-weight: bold;
+    line-height: 1.2rem;
+    font-size: 1.5rem;
+    margin-right: .4rem;
+}
+body{
+    background-image: url('https://demos.onepagelove.com/html/leno/images/header-background.jpg');
+
+}
+form > input {
+    height: 2rem;
+    color: var(--purple);
+    font-size: 1.2rem;
+    margin: 0 .2rem;
+    padding-left: .4rem;
+    width: 260px;
+    background-color: var(--opal);
+}
+form > button {
+    padding: .5rem;
+    color: var(--purple);
+    background-color: var(--celadon);
+}

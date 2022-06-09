@@ -1,0 +1,28 @@
+.show {
+    display:block;
+}
+
+.hide {
+    display:none;
+}
+
+.card-header {
+    background-color:#aaf0e5;
+    font-weight: bold;
+    align-content: center;
+}
+
+#result-title {
+    font-weight: bold;
+    align-content: center;
+    text-align: center;
+}
+
+.card-content {
+    font-weight: bold;
+    background-color:lightgrey;
+}
+
+button:hover{
+    opacity: 0.5;
+}
